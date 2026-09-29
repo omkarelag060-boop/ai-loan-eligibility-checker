@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A0E1A">
+  <meta name="description" content="Estimate your Indian loan eligibility, understand your credit score, compare EMIs, and get practical AI-powered finance tips in one calm workspace.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Loan Eligibility Checker">
+  <meta property="og:description" content="A clear, privacy-aware way to estimate loan eligibility, compare EMIs, and improve your credit profile.">
+  <meta property="og:site_name" content="LoanCheck">
+  <meta name="twitter:card" content="summary">
+  <title>AI Loan Eligibility Checker | Instant Indian Estimate</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="ambient ambient-three" aria-hidden="true"></div>
+
+  <header class="site-header" id="home">
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="LoanCheck home">
+        <span class="brand-icon" aria-hidden="true"><img src="/brand-mark.svg" alt=""></span>
+        <span class="brand-copy"><strong>LoanCheck</strong><small>AI finance clarity</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><i data-lucide="menu"></i></button>
+      <div class="primary-nav" id="primary-nav">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#eligibility">Loan Eligibility</a>
+        <a class="nav-link" href="#credit-score">Credit Score</a>
+        <a class="nav-link" href="#emi-calculator">EMI Calculator</a>
+        <a class="nav-link" href="#ai-tips">AI Tips</a>
+        <a class="nav-cta" href="#eligibility"><i data-lucide="sparkles"></i> Check now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell reveal" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> Built for Indian borrowers</div>
+        <h1 id="hero-title">Know your loan eligibility <span>in seconds.</span></h1>
+        <p class="hero-lede">Turn your numbers into a clear next step. Get an estimated eligibility score, understand your credit profile, and plan a comfortable EMI — without the jargon.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#eligibility"><i data-lucide="arrow-right"></i> Check my eligibility</a>
+          <a class="text-link" href="#how-it-works">See how it works <i data-lucide="chevron-down"></i></a>
+        </div>
+        <div class="hero-proof" aria-label="Product trust indicators">
+          <span><i data-lucide="shield-check"></i> No Aadhaar or PAN</span>
+          <span><i data-lucide="lock-keyhole"></i> Privacy-first</span>
+          <span><i data-lucide="clock-3"></i> Takes 2 minutes</span>
+        </div>
+      </div>
+      <div class="hero-preview" aria-label="Sample eligibility preview">
+        <div class="preview-glow"></div>
+        <div class="preview-card glass-card">
+          <div class="preview-topline"><span>Latest snapshot</span><span class="live-pill"><b></b> Demo view</span></div>
+          <div class="preview-score-row">
+            <div class="mini-gauge" style="--score-angle: 284deg"><div><strong>78</strong><small>/100</small></div></div>
+            <div><p class="muted-label">Estimated status</p><h2>Highly eligible</h2><p class="preview-copy">Healthy income-to-EMI ratio and a strong credit profile.</p></div>
+          </div>
+          <div class="preview-metrics">
+            <div><span>Max. eligible</span><strong>₹ 18,40,000</strong></div>
+            <div><span>Est. EMI</span><strong>₹ 42,180</strong></div>
+            <div><span>Approval odds</span><strong class="success-text">86%</strong></div>
+          </div>
+          <div class="preview-foot"><span><i data-lucide="sparkles"></i> Explanation ready</span><span class="mono">Updated just now</span></div>
+        </div>
+        <div class="floating-chip chip-one"><i data-lucide="trending-up"></i><span><b>+12 pts</b><small>score confidence</small></span></div>
+        <div class="floating-chip chip-two"><i data-lucide="indian-rupee"></i><span><b>₹ 42K</b><small>comfortable EMI</small></span></div>
+      </div>
+    </section>
+
+    <section class="section-shell feature-grid reveal" aria-label="Tools available">
+      <a class="feature-card glass-card" href="#eligibility"><span class="feature-icon cyan"><i data-lucide="badge-check"></i></span><span><small>01 / First step</small><strong>Loan eligibility</strong><em>Get your estimated score and reasons.</em></span><i class="feature-arrow" data-lucide="arrow-up-right"></i></a>
+      <a class="feature-card glass-card" href="#credit-score"><span class="feature-icon violet"><i data-lucide="gauge"></i></span><span><small>02 / Understand</small><strong>Credit score</strong><em>See what moves your score up or down.</em></span><i class="feature-arrow" data-lucide="arrow-up-right"></i></a>
+      <a class="feature-card glass-card" href="#emi-calculator"><span class="feature-icon emerald"><i data-lucide="calculator"></i></span><span><small>03 / Plan</small><strong>EMI calculator</strong><em>Find a repayment rhythm that fits.</em></span><i class="feature-arrow" data-lucide="arrow-up-right"></i></a>
+      <a class="feature-card glass-card" href="#ai-tips"><span class="feature-icon amber"><i data-lucide="message-circle-heart"></i></span><span><small>04 / Improve</small><strong>AI finance tips</strong><em>Ask practical questions, get clear answers.</em></span><i class="feature-arrow" data-lucide="arrow-up-right"></i></a>
+    </section>
+
+    <section class="section-shell module-section reveal" id="eligibility" aria-labelledby="eligibility-title">
+      <div class="section-heading split-heading"><div><div class="section-kicker">01 / Loan eligibility</div><h2 id="eligibility-title">A clear answer starts with <span>your real numbers.</span></h2></div><p>Enter what you know. We’ll show the assumptions behind the estimate so you can make a more informed next move.</p></div>
+      <div class="workspace-grid">
+        <form class="glass-card form-card" id="eligibility-form" novalidate>
+          <div class="card-heading"><div><span class="card-index">A</span><div><h3>Your profile</h3><p>Only the details needed for this estimate.</p></div></div><span class="required-note">* Required</span></div>
+          <div class="form-grid">
+            <div class="form-field full"><label for="full-name">Full name <span>*</span></label><input id="full-name" name="fullName" type="text" autocomplete="name" placeholder="e.g. Priya Sharma" aria-describedby="full-name-error"><small class="field-error" id="full-name-error"></small></div>
+            <div class="form-field"><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" aria-describedby="email-error"><small class="field-error" id="email-error"></small></div>
+            <div class="form-field"><label for="phone">Indian mobile number <span>*</span></label><div class="input-prefix"><span>+91</span><input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="10" placeholder="9876543210" aria-describedby="phone-error"></div><small class="field-error" id="phone-error"></small></div>
+            <div class="form-field"><label for="age">Age <span>*</span></label><div class="input-suffix"><input id="age" name="age" type="number" min="21" max="60" placeholder="28" aria-describedby="age-error"><span>years</span></div><small class="field-error" id="age-error"></small></div>
+            <div class="form-field"><label for="employment">Employment type <span>*</span></label><select id="employment" name="employment" aria-describedby="employment-error"><option value="">Select one</option><option value="salaried">Salaried</option><option value="self-employed">Self-employed</option><option value="business">Business owner</option></select><small class="field-error" id="employment-error"></small></div>
+            <div class="form-field"><label for="income">Monthly income <span>*</span></label><div class="input-prefix currency-input"><span>₹</span><input id="income" name="income" type="number" min="1" step="1000" placeholder="85000" aria-describedby="income-error"></div><small class="field-error" id="income-error"></small></div>
+            <div class="form-field"><label for="experience">Work experience <span>*</span></label><div class="input-suffix"><input id="experience" name="experience" type="number" min="0" max="45" step="0.5" placeholder="4" aria-describedby="experience-error"><span>years</span></div><small class="field-error" id="experience-error"></small></div>
+            <div class="form-field"><label for="credit-input">Credit score <span>*</span></label><div class="input-suffix"><input id="credit-input" name="creditScore" type="number" min="300" max="900" placeholder="760" aria-describedby="credit-input-error"><span>300–900</span></div><small class="field-error" id="credit-input-error"></small></div>
+          </div>
+          <div class="form-divider"><span>Loan details</span></div>
+          <div class="form-grid">
+            <div class="form-field"><label for="existing-emi">Existing monthly EMIs <span>*</span></label><div class="input-prefix currency-input"><span>₹</span><input id="existing-emi" name="existingEmi" type="number" min="0" step="500" placeholder="12000" aria-describedby="existing-emi-error"></div><small class="field-error" id="existing-emi-error"></small></div>
+            <div class="form-field"><label for="active-loans">Active loans <span>*</span></label><input id="active-loans" name="activeLoans" type="number" min="0" max="20" placeholder="1" aria-describedby="active-loans-error"><small class="field-error" id="active-loans-error"></small></div>
+            <div class="form-field"><label for="loan-type">Loan type <span>*</span></label><select id="loan-type" name="loanType" aria-describedby="loan-type-error"><option value="">Select a loan type</option><option value="personal">Personal loan</option><option value="home">Home loan</option><option value="car">Car loan</option><option value="education">Education loan</option></select><small class="field-error" id="loan-type-error"></small></div>
+            <div class="form-field"><label for="loan-amount">Requested amount <span>*</span></label><div class="input-prefix currency-input"><span>₹</span><input id="loan-amount" name="loanAmount" type="number" min="10000" step="10000" placeholder="1200000" aria-describedby="loan-amount-error"></div><small class="field-error" id="loan-amount-error"></small></div>
+            <div class="form-field"><label for="tenure">Tenure <span>*</span></label><div class="input-suffix"><input id="tenure" name="tenure" type="number" min="6" max="360" step="6" placeholder="60" aria-describedby="tenure-error"><span>months</span></div><small class="field-error" id="tenure-error"></small></div>
+          </div>
+          <label class="consent-row" for="consent"><input id="consent" name="consent" type="checkbox" aria-describedby="consent-error"><span class="checkmark"></span><span>I understand this is an estimate for educational use, not a loan approval or financial advice. <b>*</b></span></label><small class="field-error consent-error" id="consent-error"></small>
+          <button class="button button-primary button-wide" type="submit"><i data-lucide="sparkles"></i> Calculate my eligibility</button>
+          <p class="form-footnote"><i data-lucide="shield-check"></i> We never ask for Aadhaar, PAN, bank details, or passwords.</p>
+        </form>
+
+        <aside class="result-column" aria-live="polite">
+          <div class="glass-card result-card" id="eligibility-result">
+            <div class="empty-result"><div class="empty-orb"><i data-lucide="scan-search"></i></div><h3>Your estimate will appear here</h3><p>Complete the form to see your score, likely EMI, and the factors behind the result.</p><div class="empty-points"><span><i data-lucide="check"></i> Transparent score</span><span><i data-lucide="check"></i> Practical next steps</span></div></div>
+          </div>
+          <div class="glass-card recent-card"><div class="card-heading compact"><div><span class="card-index">↺</span><div><h3>Recent checks</h3><p>Saved in this browser unless Sheets is connected.</p></div></div><button class="icon-button" id="refresh-checks" type="button" aria-label="Refresh recent checks"><i data-lucide="refresh-cw"></i></button></div><div class="table-wrap"><table><thead><tr><th>Date</th><th>Loan</th><th>Score</th><th>Verdict</th></tr></thead><tbody id="recent-checks-body"><tr class="table-empty"><td colspan="4">No checks yet — your first one will show here.</td></tr></tbody></table></div></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-shell module-section reveal" id="credit-score" aria-labelledby="credit-title">
+      <div class="section-heading split-heading"><div><div class="section-kicker">02 / Credit score analyzer</div><h2 id="credit-title">See the habits behind <span>your score.</span></h2></div><p>This educational estimate makes the levers visible. It is not an official bureau score, but it can help you choose what to improve next.</p></div>
+      <div class="workspace-grid credit-grid">
+        <form class="glass-card form-card" id="credit-form" novalidate>
+          <div class="card-heading"><div><span class="card-index">B</span><div><h3>Credit factors</h3><p>Use your latest known numbers.</p></div></div><span class="mini-tag">Educational estimate</span></div>
+          <div class="slider-field"><div class="slider-label"><label for="payment-history">Payment history</label><output id="payment-history-output">92%</output></div><input id="payment-history" type="range" min="0" max="100" value="92"><small>How consistently have you paid on time?</small></div>
+          <div class="slider-field"><div class="slider-label"><label for="utilization">Credit utilization</label><output id="utilization-output">28%</output></div><input id="utilization" type="range" min="0" max="100" value="28"><small>Lower is generally healthier. Aim to stay under 30%.</small></div>
+          <div class="form-grid compact-grid">
+            <div class="form-field"><label for="credit-age">Credit age</label><div class="input-suffix"><input id="credit-age" type="number" min="0" max="40" value="6"><span>years</span></div></div>
+            <div class="form-field"><label for="credit-types">Credit types</label><div class="input-suffix"><input id="credit-types" type="number" min="0" max="8" value="3"><span>types</span></div></div>
+            <div class="form-field"><label for="inquiries">Recent inquiries</label><div class="input-suffix"><input id="inquiries" type="number" min="0" max="20" value="1"><span>in 6 mo</span></div></div>
+            <div class="form-field"><label for="missed-payments">Missed payments</label><div class="input-suffix"><input id="missed-payments" type="number" min="0" max="20" value="0"><span>in 12 mo</span></div></div>
+          </div>
+          <button class="button button-secondary button-wide" type="submit"><i data-lucide="scan-line"></i> Analyze my score</button>
+        </form>
+        <div class="glass-card score-card" id="credit-result" aria-live="polite">
+          <div class="score-top"><div><span class="section-kicker">Estimated score</span><div class="score-number"><strong id="credit-score-number">746</strong><span>/ 900</span></div></div><span class="risk-badge low" id="risk-badge">Low risk</span></div>
+          <div class="semi-meter"><div class="meter-arc"><div class="meter-cover"></div><span class="meter-marker" id="meter-marker"></span></div><div class="meter-labels"><span>Poor<br><b>300</b></span><span>Fair<br><b>600</b></span><span>Good<br><b>750</b></span><span>Excellent<br><b>900</b></span></div></div>
+          <div class="factor-breakdown"><div class="subheading"><h3>Factor breakdown</h3><span id="credit-band-label">Good range</span></div><div class="factor-row"><span>Payment history</span><div class="progress-track"><i id="factor-payment"></i></div><b id="factor-payment-value">92%</b></div><div class="factor-row"><span>Utilization health</span><div class="progress-track"><i id="factor-utilization"></i></div><b id="factor-utilization-value">72%</b></div><div class="factor-row"><span>Credit age</span><div class="progress-track"><i id="factor-age"></i></div><b id="factor-age-value">30%</b></div><div class="factor-row"><span>Credit mix</span><div class="progress-track"><i id="factor-mix"></i></div><b id="factor-mix-value">75%</b></div><div class="factor-row"><span>Recent inquiries</span><div class="progress-track"><i id="factor-inquiries"></i></div><b id="factor-inquiries-value">92%</b></div><div class="factor-row"><span>Missed payments</span><div class="progress-track"><i id="factor-missed"></i></div><b id="factor-missed-value">100%</b></div></div>
+          <div class="tips-box"><div class="subheading"><h3>Personalized moves</h3><i data-lucide="lightbulb"></i></div><ul id="credit-tips"><li>Keep your utilization below 30% where possible.</li><li>Continue paying every bill before its due date.</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell module-section reveal" id="emi-calculator" aria-labelledby="emi-title">
+      <div class="section-heading split-heading"><div><div class="section-kicker">03 / EMI calculator</div><h2 id="emi-title">Plan the payment that <span>lets you breathe.</span></h2></div><p>Move the sliders or type a number. Compare principal, interest, and the full repayment picture before you commit.</p></div>
+      <div class="glass-card emi-card">
+        <div class="emi-controls">
+          <div class="control-group"><div class="slider-label"><label for="emi-amount-range">Loan amount</label><output id="emi-amount-output">₹ 12,00,000</output></div><input id="emi-amount-range" type="range" min="100000" max="5000000" step="50000" value="1200000"><div class="inline-input"><span>₹</span><input id="emi-amount-input" type="number" min="100000" max="5000000" step="10000" value="1200000"></div></div>
+          <div class="control-group"><div class="slider-label"><label for="emi-rate-range">Interest rate</label><output id="emi-rate-output">10.50%</output></div><input id="emi-rate-range" type="range" min="6" max="24" step="0.1" value="10.5"><div class="inline-input"><input id="emi-rate-input" type="number" min="6" max="24" step="0.1" value="10.5"><span>% p.a.</span></div></div>
+          <div class="control-group"><div class="slider-label"><label for="emi-tenure-range">Tenure</label><output id="emi-tenure-output">60 months</output></div><input id="emi-tenure-range" type="range" min="6" max="360" step="6" value="60"><div class="tenure-switch" role="group" aria-label="Tenure unit"><button type="button" class="active" data-tenure-unit="months">Months</button><button type="button" data-tenure-unit="years">Years</button></div><div class="inline-input"><input id="emi-tenure-input" type="number" min="6" max="360" step="6" value="60" aria-label="Tenure value"><span id="emi-tenure-unit-label">months</span></div></div>
+        </div>
+        <div class="emi-output-grid"><div class="emi-primary"><span class="muted-label">Your estimated monthly EMI</span><strong id="emi-value">₹ 25,766</strong><span class="emi-note"><i data-lucide="info"></i> Based on reducing-balance interest</span></div><div class="output-stat"><span>Total interest</span><strong id="total-interest">₹ 3,45,960</strong></div><div class="output-stat"><span>Total payable</span><strong id="total-payable">₹ 15,45,960</strong></div></div>
+        <div class="emi-bottom"><div class="donut-panel"><div class="donut-wrap"><canvas id="emi-donut" width="210" height="210" role="img" aria-label="Donut chart showing principal and interest split"></canvas><div class="donut-center"><strong id="principal-percent">78%</strong><span>principal</span></div></div><div class="donut-legend"><span><i class="legend-dot principal"></i> Principal <b id="principal-legend">₹ 12,00,000</b></span><span><i class="legend-dot interest"></i> Interest <b id="interest-legend">₹ 3,45,960</b></span></div></div><div class="schedule-panel"><button class="schedule-toggle" id="schedule-toggle" type="button" aria-expanded="false" aria-controls="schedule-content"><span><i data-lucide="table-2"></i> View amortization schedule</span><i data-lucide="chevron-down"></i></button><div class="schedule-content" id="schedule-content" hidden><div class="table-wrap schedule-table-wrap"><table><thead><tr><th>Month</th><th>EMI</th><th>Principal</th><th>Interest</th><th>Balance</th></tr></thead><tbody id="schedule-body"></tbody></table></div></div></div></div>
+      </div>
+    </section>
+
+    <section class="section-shell module-section reveal" id="ai-tips" aria-labelledby="tips-title">
+      <div class="section-heading split-heading"><div><div class="section-kicker">04 / AI financial tips</div><h2 id="tips-title">Ask a better money <span>question.</span></h2></div><p>Get concise, practical guidance shaped by the numbers you’ve entered. The AI is careful by design — it will never pretend to be your lender.</p></div>
+      <div class="glass-card chat-card">
+        <div class="chat-header"><div class="chat-agent"><div class="agent-avatar"><i data-lucide="sparkles"></i></div><div><h3>LoanCheck assistant</h3><span><b></b> Ready to help · Indian personal finance</span></div></div><span class="privacy-label"><i data-lucide="lock"></i> Private in this session</span></div>
+        <div class="quick-prompts" aria-label="Quick prompts"><button type="button" data-prompt="How can I improve my credit score?">How can I improve my credit score?</button><button type="button" data-prompt="Should I choose a shorter tenure?">Should I choose a shorter tenure?</button><button type="button" data-prompt="How can I reduce my EMI burden?">How can I reduce my EMI burden?</button></div>
+        <div class="chat-history" id="chat-history" aria-live="polite"><div class="chat-message assistant"><div class="message-avatar"><i data-lucide="sparkles"></i></div><div class="message-bubble"><p>Hi — I can help you think through your loan numbers. Try one of the prompts above, or ask me anything about EMIs, credit habits, and borrowing comfortably.</p><small>Not financial advice · Estimates are educational</small></div></div></div>
+        <form class="chat-composer" id="chat-form"><label class="sr-only" for="chat-input">Ask a financial question</label><input id="chat-input" type="text" maxlength="240" placeholder="e.g. What would lower my EMI without extending the loan too much?" autocomplete="off"><button class="button button-primary" type="submit" aria-label="Send message"><i data-lucide="arrow-up"></i></button></form>
+      </div>
+    </section>
+
+    <section class="section-shell how-section reveal" id="how-it-works" aria-labelledby="how-title"><div class="section-heading centered"><div class="section-kicker">The clear path</div><h2 id="how-title">From details to <span>direction.</span></h2><p>Four simple steps. No sales call, no hidden jargon.</p></div><div class="timeline"><div class="timeline-line"></div><div class="timeline-step"><span>01</span><i data-lucide="clipboard-pen-line"></i><h3>Tell us the basics</h3><p>Share income, work profile, credit score, and what you need.</p></div><div class="timeline-step"><span>02</span><i data-lucide="function-square"></i><h3>We run the math</h3><p>Our transparent engine looks at FOIR, stability, age, and obligations.</p></div><div class="timeline-step"><span>03</span><i data-lucide="chart-no-axes-combined"></i><h3>See your snapshot</h3><p>Review the score, likely EMI, rate range, and improvement ideas.</p></div><div class="timeline-step"><span>04</span><i data-lucide="route"></i><h3>Choose your next step</h3><p>Plan, improve, or speak to a lender with better context.</p></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-grid"><div class="footer-brand"><a class="brand" href="#home"><span class="brand-icon"><img src="/brand-mark.svg" alt=""></span><span class="brand-copy"><strong>LoanCheck</strong><small>AI finance clarity</small></span></a><p>Practical tools for a more confident borrowing decision.</p></div><div><h3>Explore</h3><a href="#eligibility">Loan eligibility</a><a href="#credit-score">Credit score</a><a href="#emi-calculator">EMI calculator</a></div><div><h3>Trust & privacy</h3><p>Estimates only, not financial advice.</p><p>Never enter Aadhaar, PAN, or bank details.</p></div><div><h3>Project credits</h3><p>NASSCOM – AI Specialist BFSI</p><p class="mono">v1.0 / 2026</p></div></div><div class="section-shell footer-bottom"><span>© <span id="year"></span> LoanCheck</span><span>Built for clarity, not pressure.</span></div></footer>
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>

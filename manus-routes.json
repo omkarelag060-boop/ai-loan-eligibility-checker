@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "AI Loan Eligibility Checker" },
+    { "path": "/index.html", "title": "AI Loan Eligibility Checker" }
+  ]
+}
