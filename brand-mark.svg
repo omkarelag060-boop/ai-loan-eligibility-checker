@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">LoanCheck brand mark</title>
+  <desc id="desc">A midnight document with a cyan checkmark and violet folded corner.</desc>
+  <rect width="512" height="512" fill="#0A0E1A"/>
+  <path d="M151 83h154l73 74v272H151c-17.7 0-32-14.3-32-32V115c0-17.7 14.3-32 32-32Z" fill="#111827" stroke="#22D3EE" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M305 83v74h73" fill="#8B5CF6"/>
+  <path d="m177 306 47 47 112-116" fill="none" stroke="#22D3EE" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M177 208h108" stroke="#8B5CF6" stroke-width="18" stroke-linecap="round"/>
+</svg>
